@@ -6,9 +6,9 @@ services:
       # context: .
       # dockerfile: Dockerfile
     ### pull image from docker hub ###
-     image: rsperling/hello-world3:latest
+    image: rsperling/hello-world3:latest
     ### required for flask app ###
     ports:
-    - 5000:5000
+      - 5000:5000
     container_name: hello-world3
     restart: unless-stopped
