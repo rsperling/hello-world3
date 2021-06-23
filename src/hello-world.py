@@ -10,7 +10,7 @@ from flask import Flask
 
 # owned
 __author__ = 'Rich Bocchinfuso'
-__copyright__ = 'Copyright 2021, Hello World for DevOps Workshop'
+__copyright__ = 'Copyright 2021, Hello World! for DevOps Workshop'
 __credits__ = ['Rich Bocchinfuso']
 
 __license__ = 'MIT'
