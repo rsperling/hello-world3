@@ -2,13 +2,13 @@ version: "3"
 services:
   hello-world:
     ### local build ###
-    build:
-      context: .
-      dockerfile: Dockerfile
+     # build:
+      # context: .
+      # dockerfile: Dockerfile
     ### pull image from docker hub ###
-    # image: rbocchinfuso/hello-world:latest
+     image: rsperling/hello-world3:latest
     ### required for flask app ###
     ports:
     - 5000:5000
-    container_name: hello-world
+    container_name: hello-world3
     restart: unless-stopped
